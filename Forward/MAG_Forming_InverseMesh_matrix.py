@@ -110,8 +110,10 @@ model = model[actv]
 
 # Here you can visualize the current model
 m_true = actvMap * model
+Mesh.TensorMesh.writeModelUBC(mesh, "model_mag.sus", m_true)
 airc = m_true == ndv
 m_true[airc] = np.nan
+print('exported mag model. Size: ', m_true.shape)
 
 # **Forward system:**
 # We create a synthetic survey with observations in cell center.
@@ -145,8 +147,10 @@ prob = PF.Magnetics.MagneticIntegral(
     actInd=actv,
     Solver=PardisoSolver
 )
-G_grav = np.load('./G_Mag_Inverse.npy')
-prob._G = G_grav
+
+# if sensitivity matrix already exists
+# G = np.load('./G_Mag_Inverse.npy')
+#prob._G = G
 # Pair the survey and problem
 survey.pair(prob)
 
@@ -155,7 +159,7 @@ std = 0.0
 survey.eps = 0.
 # We add some random Gaussian noise
 survey.makeSyntheticData(model, std=std)
-survey.dobs = survey.dobs + survey.eps * np.random.randn(survey.dobs.shape)
+survey.dobs = survey.dobs + survey.eps * np.random.randn(survey.dobs.shape[0])
 
 PF.Magnetics.writeUBCobs(
     'MAG_CoarseForward_Synthetic_data.obs', survey, survey.dobs
