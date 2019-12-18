@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 def getSlice(sigma,mesh,sliceInd,normal):
     v = mesh.r(sigma,'CC','CC','M')
