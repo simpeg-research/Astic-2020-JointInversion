@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/227492402.svg)](https://zenodo.org/badge/latestdoi/227492402)
 
-Scripts for forward modeling and joint inversion of potential fields data
+Python scripts and Jupyter notebooks for forward modeling and joint inversion of potential fields data with <tt>`r sort(d$SimPEG)`</tt>.
 
 <img src="figures/TKC_Joint_Synthetic.png" width=50% align="middle">
 
@@ -26,7 +26,7 @@ We present a framework for petrophysically and geologically guided inversion to 
 
 - [PGI joint inversion](/PGI_joint_inversion): Jupyter notebook to perform the joint PGI inversion with full petrophysical knowledge
 
--[PGI Joint no petrophysical means](/PGI_Joint_no_petrophysical_means): Jupyter notebook to perform the joint PGI inversion without petrophysical knowledge
+- [PGI Joint no petrophysical means](/PGI_Joint_no_petrophysical_means): Jupyter notebook to perform the joint PGI inversion without petrophysical knowledge
 
 ## Usage
 
