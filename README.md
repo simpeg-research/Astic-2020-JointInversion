@@ -90,10 +90,10 @@ If you build upon or use these examples in your work, please cite:
 Astic, T., L. J. Heagy, and D. W. Oldenburg, 2020, Joint geophysical, petrophysical and geologic inversion using a dynamic Gaussian mixture model, submitted to Geophysical Journal International.
 
 
-Astic, T., and D. W. Oldenburg, 2019, A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior: Geophysical Journal International, 219, 1989-2012. doi: 10.1093/gji/ggz389
+Astic, T., and D. W. Oldenburg, 2019, A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior: Geophysical Journal International, 219, 1989-2012. https://10.1093/gji/ggz389
 
 
-Astic, T. and D. W. Oldenburg, 2018, Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). doi: 10.1190/segam2018-2995155.1
+Astic, T. and D. W. Oldenburg, 2018, Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://10.1190/segam2018-2995155.1
 
 
 ```
@@ -134,7 +134,7 @@ eprint = {https://library.seg.org/doi/pdf/10.1190/segam2018-2995155.1}
 
 If you are using [<tt>`SimPEG`</tt>](https://simpeg.xyz/), please cite:
 
-Cockett, Rowan, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky, and Douglas W. Oldenburg. "SimPEG: An Open Source Framework for Simulation and Gradient Based Parameter Estimation in Geophysical Applications" Computers & Geosciences, September 2015. doi:10.1016/j.cageo.2015.09.015.
+Cockett, Rowan, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky, and Douglas W. Oldenburg. "SimPEG: An Open Source Framework for Simulation and Gradient Based Parameter Estimation in Geophysical Applications" Computers & Geosciences, September 2015. https://10.1016/j.cageo.2015.09.015.
 
 ```
 @article{Cockett2015,
@@ -155,7 +155,7 @@ year = {2015}
 
 If you are using the Electromagnetics Simulations & Inversions capabilities of [<tt>`SimPEG`</tt>](https://simpeg.xyz/), please cite:
 
-Lindsey J. Heagy, Rowan Cockett, Seogi Kang, Gudni K. Rosenkjaer, Douglas W. Oldenburg. "A framework for simulation and inversion in electromagnetics" Computers & Geosciences, September 2017. doi:10.1016/j.cageo.2017.06.018
+Lindsey J. Heagy, Rowan Cockett, Seogi Kang, Gudni K. Rosenkjaer, Douglas W. Oldenburg. "A framework for simulation and inversion in electromagnetics" Computers & Geosciences, September 2017. https://10.1016/j.cageo.2017.06.018
 
 ```
 @article{heagy2017framework,
