@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/227492402.svg)](https://zenodo.org/badge/latestdoi/227492402)
 
-Python scripts and Jupyter notebooks for forward modeling and joint inversion of potential fields data with <tt>`r sort(d$SimPEG)`</tt>.
+Python scripts and Jupyter notebooks for forward modeling and joint inversion of potential fields data with <tt>`SimPEG`</tt>.
 
 <img src="figures/TKC_Joint_Synthetic.png" width=50% align="middle">
 
