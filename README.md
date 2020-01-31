@@ -173,4 +173,4 @@ keywords = {Geophysics, Numerical modelling, Finite volume, Sensitivities, Objec
 
 
 ## License
-These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
+These scripts and notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
