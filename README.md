@@ -18,11 +18,11 @@ We present a framework for petrophysically and geologically guided inversion to 
 
 - [Forward folder](/Forward): Scripts to forward model the magnetic and gravity data from the geological surfaces
 
-- [L2 inverion folder](/L2_inversion): Jupyter notebooks to run Tikhonov (L2) inversions and Sparse (Lp-Lq) inversion of the gravity and magnetic data.
+- [L2 inversion folder](/L2_inversion): Jupyter notebooks to run Tikhonov (L2) inversions and Sparse (Lp-Lq) inversion of the gravity and magnetic data.
 
 - [Petrophysics folder](/Petrophysics): Jupyter notebook to build the GMM objects for all the PGI inversions.
 
-- [PGI individual inversion](/PGI_individual_inversion): Jupyter notebooks to perform PGI inverions of the gravity and magnetic data individually, each with the PK and HK signature respectively.
+- [PGI individual inversion](/PGI_individual_inversion): Jupyter notebooks to perform PGI inversions of the gravity and magnetic data individually, each with the PK and HK signature respectively.
 
 - [PGI joint inversion](/PGI_joint_inversion): Jupyter notebook to perform the joint PGI inversion with full petrophysical knowledge
 
@@ -98,7 +98,7 @@ Astic, T. and D. W. Oldenburg, 2018, Petrophysically guided geophysical inversio
 
 ```
 @article{AsticJoint,
-author = {Thibaut Astic and Lindey J. Heagy and Douglas W. Oldenburg},
+author = {Thibaut Astic and Lindsey J. Heagy and Douglas W. Oldenburg},
 title = {Joint geophysical, petrophysical and geologic inversion using a dynamic Gaussian mixture model},
 journal = {Submitted to Geophysical Journal International},
 year = {2020}
