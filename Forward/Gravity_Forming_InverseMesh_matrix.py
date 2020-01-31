@@ -148,7 +148,7 @@ std = 0.0
 survey.eps = 0.
 # We add some random Gaussian noise
 survey.makeSyntheticData(model, std=std)
-survey.dobs = survey.dobs + survey.eps * np.random.randn(survey.dobs.shape)
+survey.dobs = survey.dobs + survey.eps * np.random.randn(survey.dobs.shape[0])
 
 io_utils.writeUBCgravityObservations(
     'GRAV_CoarseForward_DoubleContrast_Synthetic_data.obs', survey, survey.dobs

@@ -1,0 +1,11 @@
+numpy=1.17.3
+scipy=1.3.1
+matplotlib=3.1.1
+scikit-learn=0.21.3
+seaborn=0.9.0
+mkl=2019.4
+vectormath>=0.2.0
+h5py==2.9.0
+pymatsolver==0.1.2
+discretize==0.4.10
+-e git+https://github.com/simpeg/simpeg.git@examples/PGI_joint
