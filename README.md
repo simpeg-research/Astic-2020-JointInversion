@@ -1,10 +1,10 @@
 **[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the notebooks](#running-the-notebooks) | [issues](#issues) | [citations](#citations) | [license](#license)**
 
-# Astic-2020-JointInversion-DO27
+# Joint inversion of synthetic potential fields data based on the DO-27 kimberlite pipe
 
 [![DOI](https://zenodo.org/badge/227492402.svg)](https://zenodo.org/badge/latestdoi/227492402)
 
-Python scripts and Jupyter notebooks for forward modeling and joint inversion of potential fields data with [<tt>`SimPEG`</tt>](https://simpeg.xyz/).
+Python scripts and Jupyter notebooks for forward modeling and joint inversion of potential fields data using the PGI Framework (Astic & Oldenburg 2019; Astic et al. 2020) with [<tt>`SimPEG`</tt>](https://simpeg.xyz/). Examples published in Astic et al. 2020.
 
 <img src="figures/TKC_Joint_Synthetic.png" width=50% align="middle">
 
