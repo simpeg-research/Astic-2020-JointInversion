@@ -81,24 +81,32 @@ Please [make an issue](https://github.com/simpeg-research/Astic-2020-JointInvers
 
 If you build upon or use these examples in your work, please cite:
 
-Astic, T., L. J. Heagy, and D. W. Oldenburg, 2020, Joint geophysical, petrophysical and geologic inversion using a dynamic Gaussian mixture model, submitted to Geophysical Journal International.
+Astic, T., L. J. Heagy, and D. W. Oldenburg, 2021, Petrophysically and geologically guided multi-physics inversion using a dynamic Gaussian mixture model: Geophysical Journal International, 224(1), 40–68. https://doi.org/10.1093/gji/ggaa378
 
 
-Astic, T., and D. W. Oldenburg, 2019, A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior: Geophysical Journal International, 219, 1989-2012. https://doi.org/10.1093/gji/ggz389
+Astic, T., and D. W. Oldenburg, 2019, A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior: Geophysical Journal International, 219(3), 1989-2012. https://doi.org/10.1093/gji/ggz389
 
 
 Astic, T. and D. W. Oldenburg, 2018, Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://doi.org/10.1190/segam2018-2995155.1
 
 
 ```
-@article{AsticJoint,
-author = {Thibaut Astic and Lindsey J. Heagy and Douglas W. Oldenburg},
-title = {Joint geophysical, petrophysical and geologic inversion using a dynamic Gaussian mixture model},
-journal = {Submitted to Geophysical Journal International},
-year = {2020}
+@article{PGI_Joint,
+author = {Astic, Thibaut and Heagy, Lindsey J and Oldenburg, Douglas W},
+title = "{Petrophysically and geologically guided multi-physics inversion using a dynamic Gaussian mixture model}",
+journal = {Geophysical Journal International},
+volume = {224},
+number = {1},
+pages = {40-68},
+year = {2020},
+month = {08},
+issn = {0956-540X},
+doi = {10.1093/gji/ggaa378},
+url = {https://doi.org/10.1093/gji/ggaa378},
+eprint = {https://academic.oup.com/gji/article-pdf/224/1/40/34193255/ggaa378.pdf},
 }
 
-@article{ggz389,
+@article{PGI_framework,
 author = {Astic, Thibaut and Oldenburg, Douglas W},
 title = "{A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior}",
 journal = {Geophysical Journal International},
