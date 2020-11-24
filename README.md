@@ -30,12 +30,6 @@ We present a framework for petrophysically and geologically guided inversion to 
 
 ## Usage
 
-Dependencies are specified in [requirements.txt](/requirements.txt)
-
-```
-pip install -r requirements.txt
-```
-
 To run the notebooks locally, you will need to have python installed,
 preferably through [anaconda](https://www.anaconda.com/download/) .
 
